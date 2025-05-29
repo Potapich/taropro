@@ -1,8 +1,8 @@
 FROM node:22-alpine
 
-RUN mkdir -p /opt/nodedbauto/node_modules && chown -R node:node /opt/nodedbauto
+RUN mkdir -p /opt/apptaro/node_modules && chown -R node:node /opt/apptaro
 
-WORKDIR /opt/nodedbauto
+WORKDIR /opt/apptaro
 
 COPY package*.json ./
 
@@ -12,6 +12,6 @@ RUN npm install
 
 COPY --chown=node:node . .
 
-CMD [ "node", "app.js" ]
+CMD [ "node", "server/app.js" ]
 
-EXPOSE 8181
+EXPOSE 8080
