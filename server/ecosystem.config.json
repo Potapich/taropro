@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "pg_as_best",
+      "script": "server/app.js",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_development": {
+        "NODE_ENV": "development"
+      },
+      "log_file": "log/pm2/pg_as_best/outerr.log",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  ]
+}

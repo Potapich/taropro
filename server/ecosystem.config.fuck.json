@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "RussianMilitaryShip-GoFuckYourself",
+      "script": "server/RussianMilitaryShip-GoFuckYourself.js",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "env_development": {
+        "NODE_ENV": "development"
+      },
+      "log_file": "log/pm2/RussianMilitaryShip-GoFuckYourself/outerr.log",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  ]
+}

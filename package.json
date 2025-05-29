@@ -1,0 +1,14 @@
+{
+  "name": "apptaro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./server/app.js"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "cookie-parser": "~1.4.4",
+    "express": "^4.21.2",
+    "mongodb": "^6.16.0"
+  }
+}
